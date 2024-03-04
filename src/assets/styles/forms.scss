@@ -1,0 +1,38 @@
+form{
+    background: linear-gradient(to left, #78A083, #50727B, #344955);
+    width: 650px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    input,select,textarea{
+        display: block;
+        margin: auto;
+        width: 90%;
+        padding: 8px 0 8px 5px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    input[type="submit"]{
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bolder;
+        width: 50%;
+        cursor: pointer;
+        color: white;
+        background-color: rgba(165, 42, 42, 0.685);
+        border: none;
+        transition: .7s;
+        &:hover{
+            background: rgb(99, 207, 243);
+            color: orangered;
+        }
+    }
+    input[type="submit"]:disabled{
+            opacity: 0;
+            cursor: auto;
+    }
+}

@@ -1,0 +1,19 @@
+.search{
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(to right, #78A083, #50727B, #344955, #35374B);
+    padding: 10px;
+    color: black;
+    position: relative;
+    input{
+        border-radius: 8px;
+        padding-left: 5px;
+        width: 300px;
+        height: 40px;
+    }
+    span{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
